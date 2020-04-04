@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="dc66ba0acd1841b294e0d6c6d223af7a" Name="Diagram1">
+        <EntityTypeShape EntityType="enviosModel.CIUDAD" Width="1.5" PointX="0.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="enviosModel.CLIENTE" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="enviosModel.ENVIOS" Width="1.5" PointX="5.25" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="enviosModel.ESTADOS" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="enviosModel.PESOS" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <AssociationConnector Association="enviosModel.FK_ENVIOS_CIUDAD" ManuallyRouted="false" />
+        <AssociationConnector Association="enviosModel.FK_ENVIOS_CIUDAD1" ManuallyRouted="false" />
+        <AssociationConnector Association="enviosModel.FK_PESOS_CIUDAD" ManuallyRouted="false" />
+        <AssociationConnector Association="enviosModel.FK_PESOS_CIUDAD1" ManuallyRouted="false" />
+        <AssociationConnector Association="enviosModel.FK_ENVIOS_CLIENTE" ManuallyRouted="false" />
+        <AssociationConnector Association="enviosModel.FK_ENVIOS_CLIENTE1" ManuallyRouted="false" />
+        <AssociationConnector Association="enviosModel.FK_ENVIOS_ESTADOS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
